@@ -262,6 +262,10 @@ nav a span {
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
 }
 
+/* Added css code */
+.cell:hover {
+  box-shadow: 0 0 25px rgba(33, 33, 33, .2);
+}
 
 /* 
   About and project pages styles 
@@ -360,6 +364,10 @@ nav a span {
 
 .error {
   color: red;
+}
+
+.cursive {
+  font-style: italic;
 }
 
 /* 
