@@ -1,0 +1,69 @@
+{
+    "projects" : 
+        [
+            {
+                "id": 0,
+                "project_name": "Random quote generator",
+                "description": "This project is a demonstration of using arrays to randomly generate quotes from an array",
+                "technologies": ["Javascript", "HTML", "CSS"],
+                "live_link": "https://coonsat.github.io/tt_projectOne/",
+                "github_link": "https://github.com/coonsat/tt_projectOne.git",
+                "image_urls": ["prOne_1.png", "prOne_2.png"]
+            },
+            {
+                "id": 1,
+                "project_name": "Dynamic pagination",
+                "description": "This project demonstrates how to dynamically paginate a number of data items",
+                "technologies": ["Javascipt", "HTML", "CSS"],
+                "live_link": "https://coonsat.github.io/pagination_project/",
+                "github_link": "https://github.com/coonsat/pagination_project.git",
+                "image_urls": ["prTwo_1.png", "prTwo_2.png"]
+            },
+            {
+                "id": 2,
+                "project_name": "Interactive form",
+                "description": "This project demonstrates the use of a javascript to generate an interactive form",
+                "technologies": ["Javascript", "HTML", "CSS"],
+                "live_link": "https://coonsat.github.io/interactiveForm_project/",
+                "github_link": "https://github.com/coonsat/interactiveForm_project.git",
+                "image_urls": ["prThree_1.png", "prThree_2.png"]
+            },
+            {
+                "id": 3,
+                "project_name": "Phrase Hunter",
+                "description": "This project demonstrates the use of Javascript OOP to create a game scenario",
+                "technologies": ["Javascript", "HTML", "CSS"],
+                "live_link": "https://coonsat.github.io/oopgame/",
+                "github_link": "https://github.com/coonsat/oopgame.git",
+                "image_urls": ["prFour_1.png", "prFour_2.png"]
+            },
+            {
+                "id": 4,
+                "project_name": "Request API",
+                "description": "Using an already existing name database, this project demonstrates the use of Fetch API to load data into an application",
+                "technologies": ["Javascript", "HTML", "CSS"],
+                "live_link": "https://coonsat.github.io/requestapi/",
+                "github_link": "https://github.com/coonsat/requestapi.git",
+                "image_urls": ["prFive_1.png", "prFive_2.png"]
+            },
+            {
+                "id": 5,
+                "project_name": "Flashcard",
+                "description": "This is not my work but derived from the 5th module of the team treehouse tech degree. The work is ongoing to try and build out this application.",
+                "technologies": ["Javascript", "Node.js", "Express", "Pug", "HTML", "CSS"],
+                "live_link": "",
+                "github_link": "https://github.com/coonsat/flashcard.git",
+                "image_urls": ["prNone_1.png"]
+            },
+            {
+                "id": 6,
+                "project_name": "staticnodeproject",
+                "description": "This project is for the 5th project of the Team Treehouse Fullstack Javascript Tech Degree",
+                "technologies": ["Javascript", "HTML", "CSS"],
+                "live_link": "https://coonsat.github.io/staticnodeproject/",
+                "github_link": "https://github.com/coonsat/staticnodeproject.git",
+                "image_urls": ["prSix_1.png", "prSix_2.png"]
+            }
+
+        ]
+}

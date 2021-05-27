@@ -1,0 +1,42 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-about
+    .inner-wrapper.flex-row-wrap.two-col
+      .about-intro-box.box
+
+        //- Replace with your name
+        h1=name
+
+        //- Feel free to personalize the title below
+        p Full Stack JavaScript Developer
+
+        .about-bio
+          p=elevatorPitch
+
+      .skills-contact-box.box
+        h6 Skills
+
+        ul
+          each skill in myDeets.skills 
+            li=skill
+
+        h6 Contact Info
+
+        ul
+          li=myDeets.number
+          li=myDeets.email
+
+        a.btn-link(href=`${myDeets.linkedin}`) LinkedIn
+        a.btn-link(href=`${myDeets.git}`) GitHub
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back

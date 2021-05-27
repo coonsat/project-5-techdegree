@@ -1,0 +1,13 @@
+extends layout 
+
+block content 
+  sectioncentreContent 
+    h1.centre= `${error.message}`
+    h3.centre.error=  `Error status: ${error.status}`
+    div.imageContainer
+      img.centreImage(src=`/static/img/${cryingBaby}`, alt="Project not found")
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
